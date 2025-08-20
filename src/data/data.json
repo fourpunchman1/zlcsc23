@@ -1,0 +1,225 @@
+{
+  "Header": {
+    "title": "中崙資訊研習社",
+    "paragraph": "一群致力於資訊技術的高中生，互相探索和學習各種資訊科技相關的知識。"
+  },
+  "About": {
+    "paragraph": "在台北市中崙高中，有一群熱愛資訊技術的人，我們每週在資訊研習社團聚，探索和學習各種資訊科技相關的知識。風氣開放，沒有學長姐制、沒有語言歧視，讓每位社員都能在這裡發揮他們的潛力，並在電子資訊領域中茁壯成長。",
+    "Why": [
+      "硬體概論",
+      "C++基礎操作",
+      "網頁前後端",
+      "資訊安全"
+    ],
+    "Why2": [
+      "社群演算法",
+      "青少年文化",
+      "多元分享",
+      "資訊素養"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "C++基礎操作",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "資訊資安",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "胡妘婕",
+      "job": "社長/教學"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "甄秉序",
+      "job": "副社長/教學"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "嚴宸鈞",
+      "job": "公關/活動"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "張桓嘉",
+      "job": "公關/活動"
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "廖姸晴",
+      "job": "美宣/教學"
+    },
+    {
+      "img": "img/team/06.jpg",
+      "name": "楊蕎安",
+      "job": "美宣"
+    },
+    {
+      "img": "img/team/07.jpg",
+      "name": "陳湛方",
+      "job": "教學"
+    },
+    {
+      "img": "img/team/08.jpg",
+      "name": "林彥安",
+      "job": "總務"
+    },
+    {
+      "img": "img/team/09.jpg",
+      "name": "曾筠婷",
+      "job": "文書"
+    },
+    {
+      "img": "img/team/10.jpg",
+      "name": "詹翔宇",
+      "job": "設備"
+    }
+  ],
+  "Contact": {
+    "address": "105台北市松山區八德路四段101號電腦教室-三",
+    "phone": "+886 ### ### ###",
+    "email": "zlcsc23rd@gmail.com",
+    "github": "https://github.com/zlcsc23",
+    "instagram": "https://www.instagram.com/zlcsc_23rd",
+    "discord": "https://discord.gg/B5h8hySK7k",
+    "line": ""
+  },
+  "Features": [
+    {
+      "icon": "fa fa-code",
+      "title": "硬體概論",
+      "text": "在硬體概論中，我們會介紹電腦的內部架構、程式在電腦內部是如何運作(邏輯閘與二進制等) ，以及直譯與編譯的差別。"
+    },
+    {
+      "icon": "fa fa-code-fork",
+      "title": "程式設計、資料結構與演算法",
+      "text": "我們會教學C++的基本語法，在第一次段考後，我們會由各式的排序方法開始教學基礎資料結構與演算法，以及各種酷酷的函式庫。"
+    },
+    {
+      "icon": "fa fa-cog",
+      "title": "網頁開發",
+      "text": "前端會教學HTML、 CSS、JavaScript的常用語法以及React，後端則教學API的實作、資料庫，學期的尾端會介紹網頁的資安問題，以及如何防止。"
+    },
+    {
+      "icon": "fa fa-picture-o",
+      "title": "社群軟體演算法",
+      "text": "在這個單元，透過了解演算法學習簡易meta的流量操控，以及了解推薦演算法的運作方式。"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "洞悉網路上青少年的亞文化",
+      "text": "介紹二創、迷因、匿名、糖水照……在社群上風靡的這些次文化背後是什麼？為什麼能席捲全球？分享次文化歷史以及網路文化後面的黑暗面。"
+    },
+    {
+      "icon": "fa fa-graduation-cap",
+      "title": "多元分享",
+      "text": "邀請科技業各專家演講分享專業，不僅是局限於課堂，更進一步了解業界的專家在做什麼，工程師、資工系、資管系畢業學生等，都有機會出現在課堂上。"
+    }
+  ]
+}
