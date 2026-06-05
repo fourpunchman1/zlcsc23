@@ -7,9 +7,13 @@ import "slick-carousel/slick/slick.css";
 import './scss/index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const basename =
+  process.env.PUBLIC_URL && process.env.PUBLIC_URL !== '.'
+    ? process.env.PUBLIC_URL
+    : '/zlcsc23';
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL || '/zlcsc23'}>
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>

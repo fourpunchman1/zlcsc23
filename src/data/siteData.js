@@ -1,18 +1,22 @@
 /**
  * 中崙資研第 23 屆官網內容（參考 zlcsc-webpage-sourcecode、ZLCSC-22）
  */
+const baseUrl =
+  process.env.PUBLIC_URL && process.env.PUBLIC_URL !== '.'
+    ? process.env.PUBLIC_URL
+    : '/zlcsc23';
 const siteData = {
   siteName: "中崙資研",
   tagline: "創新求知，領航未來",
-  logo: "/images/logo.jpg",
+  logo: baseUrl + "/images/logo.jpg",
   logoAlt: "中崙資研社徽",
   hero: {
     title: "中崙資研",
     subtitle:
       "在台北市中崙高中，有一群熱愛資訊技術的人，我們每週在資訊研習社團聚，探索和學習各種資訊科技相關的知識。風氣開放，沒有學長姐制、沒有語言歧視，讓每位社員都能在這裡發揮他們的潛力，並在電子資訊領域中茁壯成長。",
     btnText: "了解更多",
-     btnLink: (process.env.PUBLIC_URL || '/zlcsc23') + "/about",
-    bgImageUrl: "/images/hero_bg.jpeg",
+    btnLink: "/about",
+    bgImageUrl: baseUrl + "/images/hero_bg.jpeg",
     socialLinksHeading: "Follow Us",
     heroSocialLinks: [
       {
@@ -46,36 +50,36 @@ const siteData = {
   researchAreas: [
     {
       title: "硬體概論",
-       link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails",
-      src: "/images/service_1.jpeg",
+      link: "/service/serviceDetails",
+      src: baseUrl + "/images/service_1.jpeg",
       alt: "硬體概論",
     },
     {
       title: "C++ 與資料結構",
-       link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails",
-      src: "/images/service_2.jpeg",
+      link: "/service/serviceDetails",
+      src: baseUrl + "/images/service_2.jpeg",
       alt: "程式設計",
     },
     {
       title: "網頁前後端開發",
-       link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails",
-      src: "/images/service_3.jpeg",
+      link: "/service/serviceDetails",
+      src: baseUrl + "/images/service_3.jpeg",
       alt: "網頁開發",
     },
     {
       title: "社群演算法與資訊素養",
-       link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails",
-      src: "/images/service_4.jpeg",
+      link: "/service/serviceDetails",
+      src: baseUrl + "/images/service_4.jpeg",
       alt: "資訊素養",
     },
   ],
   servicesPage: [
-     { title: "硬體概論", link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails", src: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/service_1.jpeg" },
-     { title: "C++ 基礎與資料結構", link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails", src: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/service_2.jpeg" },
-     { title: "HTML CSS JS 網頁設計", link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails", src: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/service_3.jpeg" },
-     { title: "React 與 API 後端", link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails", src: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/service_4.jpeg" },
-     { title: "Python 小工具與爬蟲", link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails", src: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/service_5.jpeg" },
-     { title: "Arduino / ESP32 軟硬整合", link: (process.env.PUBLIC_URL || '/zlcsc23') + "/service/serviceDetails", src: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/service_6.jpeg" },
+    { title: "硬體概論", link: "/service/serviceDetails", src: baseUrl + "/images/service_1.jpeg" },
+    { title: "C++ 基礎與資料結構", link: "/service/serviceDetails", src: baseUrl + "/images/service_2.jpeg" },
+    { title: "HTML CSS JS 網頁設計", link: "/service/serviceDetails", src: baseUrl + "/images/service_3.jpeg" },
+    { title: "React 與 API 後端", link: "/service/serviceDetails", src: baseUrl + "/images/service_4.jpeg" },
+    { title: "Python 小工具與爬蟲", link: "/service/serviceDetails", src: baseUrl + "/images/service_5.jpeg" },
+    { title: "Arduino / ESP32 軟硬整合", link: "/service/serviceDetails", src: baseUrl + "/images/service_6.jpeg" },
   ],
   teachingPlan: [
     [
@@ -115,61 +119,61 @@ const siteData = {
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/02.jpg",
+      memberImage: baseUrl + "/images/team/02.jpg",
       memberName: "甄秉序",
       memberDesignation: "副社長／教學",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/03.jpg",
+      memberImage: baseUrl + "/images/team/03.jpg",
       memberName: "嚴宸鈞",
       memberDesignation: "公關／活動",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/04.jpg",
+      memberImage: baseUrl + "/images/team/04.jpg",
       memberName: "張桓嘉",
       memberDesignation: "公關／活動",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/05.jpg",
+      memberImage: baseUrl + "/images/team/05.jpg",
       memberName: "廖姸晴",
       memberDesignation: "美宣／教學",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/06.jpg",
+      memberImage: baseUrl + "/images/team/06.jpg",
       memberName: "楊蕎安",
       memberDesignation: "美宣",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/07.jpg",
+      memberImage: baseUrl + "/images/team/07.jpg",
       memberName: "陳湛方",
       memberDesignation: "教學",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/08.jpg",
+      memberImage: baseUrl + "/images/team/08.jpg",
       memberName: "林彥安",
       memberDesignation: "總務",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/09.jpg",
+      memberImage: baseUrl + "/images/team/09.jpg",
       memberName: "曾筠婷",
       memberDesignation: "文書",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/10.jpg",
+      memberImage: baseUrl + "/images/team/10.jpg",
       memberName: "詹翔宇",
       memberDesignation: "設備",
       memberSocial: {},
     },
     {
-       memberImage: (process.env.PUBLIC_URL || '/zlcsc23') + "/images/team/21.jpg",
+      memberImage: baseUrl + "/images/team/21.jpg",
       memberName: "陳仕庭",
       memberDesignation: "社團導師",
       memberSocial: {},
