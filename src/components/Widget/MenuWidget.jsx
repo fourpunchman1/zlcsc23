@@ -1,0 +1,22 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+export default function MenuWidget({menuItems, menuHeading, variant}) {
+  const items =
+    menuItems && menuItems.length > 0
+      ? menuItems
+      : [{ title: '首頁', href: '/' }];
+
+  return (
+    <>
+      {menuHeading && <h2 className="cs-widget_title">{menuHeading}</h2>}
+      <ul className={`${variant ? `cs-menu_widget ${variant}` : 'cs-menu_widget cs-style1'} cs-mp0`}>
+        {items.map((item, index) => (
+          <li key={index}>
+            {item.href ? <Link to={item.href}>{item.title}</Link> : item.title}
+          </li>
+        ))}
+      </ul>
+    </>
+  )
+}

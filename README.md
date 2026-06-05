@@ -1,34 +1,38 @@
-# React JS Landing Page Template
+# 中崙資研 ZLCSC-23 官網
 
-**
+第 23 屆中崙資訊研習社官方網站。架構參考 `zlcsc-webpage-sourcecode`（React 多頁式），內容整合 `ZLCSC-22` 與本屆社團資料。
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+## 功能頁面
 
-**
+- **首頁**：Hero、研究方向、專題計畫、教學計劃、幹部、合作夥伴
+- **關於**：社團介紹、社徽理念
+- **研究方向**：本屆教學主題
+- **團隊**：第 23 屆幹部
+- **專題詳情**：各項計畫說明
+- **聯絡**：導向 Instagram 等社群
 
+## 開發
 
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
+```bash
+cd zlcsc23
+npm install
+npm start
+```
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+建置：
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+```bash
+npm run build
+```
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
+## 修改內容
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+主要編輯 `src/data/siteData.js`（幹部、聯絡方式、教學計畫、專題等）。幹部照片放在 `public/images/team/`（`01.jpg`～`10.jpg`）。
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+## 部署
 
-##### Issaaf kattan
+```bash
+npm run deploy
+```
+
+（需設定 `package.json` 的 `homepage` 為 GitHub Pages 網址）
